@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Agenda Mundial 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body >
+    <header>
+        <h1>Mi Agenda Mundial <span >2026            </span></h1>
+        
+        <div class="contenedor-botones">
+        <button id="modo-notificacion" title="Cambiar modo">🔔</button>
+        <button id="modo-oscuro" title="Cambiar modo">🌙</button>
+        </div>
+    </header>
+    
+    <main class="registro-fondo">
+        <header class="texto-menu" >
+        
+        <nav>
+            <a href="Agenda-Mundial.html">Inicio</a>
+            <a href="Inicio-Sesion.html">Iniciar sesión/Registrarse</a>
+            <a href="#">Ver Partidos</a>
+            <a href="Mi-Agenda.html">Mi Agenda</a>
+            <a href="#">Sedes</a>
+            <a href="#">Notificaciones</a>
+        </nav>
+        
+        </header>
+        <section class="registro" class="texto-encima">
+            <div class="form-container">
+                <button class="regresar">&lt; Regresar</button>
+                <p class="breadcrumb">Iniciar Sesión / Registrarse &gt; Registrarse</p>
+                <div class="texto-info">
+                    <h2>Regístrate y guarda en Mi Agenda tus partidos favoritos.</h2>
+                </div>
+                <form>
+                    <label>Nombre de usuario: *</label>
+                    <input type="text" required>
+
+                    <label>E-mail: *</label>
+                    <input type="email" required>
+
+                    <label>Contraseña: *</label>
+                    <div class="password-container">
+                        <input type="password" id="password" required>
+                        
+                    </div>
+
+                    <button type="submit" class="btn-confirmar">Confirmar</button>
+                </form>
+                <p>¿Ya dispones de una cuenta?</p>
+                <button class="btn-iniciar">Iniciar sesión</button>
+                <p class="terminos">Términos de uso</p>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
