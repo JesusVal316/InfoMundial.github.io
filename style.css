@@ -54,23 +54,34 @@ nav a:hover {
 }
 .texto-encima {
     position: absolute;
-    top: 95px; 
-    left: 20px; 
+    top: 20dvh; 
+    left: 5dvw; 
+    font-size: 5vmin;
     background-color: transparent; 
     color: rgb(rgba(0, 0, 0, 0.736), green, blue);
     padding: 10px 15px;
     
 }
 
+.Titulo{
+    font-size:5vmin;
+}
 .texto-menu {
     position: absolute;
-    top: 60px; 
-    
+    top: 9dvh; 
+    font-size:2vmin ;
     background-color: rgba(0, 0, 0, 0.353); 
     color: white;
-    padding: 9px ;
+    padding: 2dvb ;
     text-align: center;
+    
     width: 100%
+}
+
+.texto-menu a {
+    color: white; /* ahora sí blancos */
+    font-size: 3vmin; /* tamaño relativo */
+    text-decoration: none; /* quita subrayado */
 }
 
 .banner {
@@ -99,8 +110,9 @@ nav a:hover {
 }
 
 .partidos {
-    margin-top: 32%;
-    padding: 20px;
+    margin-top: 80vmin;
+    font-size: 3vmin;
+    padding: 10vmin;
     z-index: 1;
     
 }
