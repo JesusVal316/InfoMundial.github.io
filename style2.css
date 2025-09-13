@@ -9,7 +9,7 @@ body {
 header {
     background-color: #222;
     color: white;
-    padding: 10px;
+    padding: 2%;
     display: flex;
     align-items: center;
     width:100%;
@@ -22,21 +22,17 @@ header {
 }
 img{
     
-    height: 25dvb;
+    height: 23dvb;
     margin-bottom:0%;
     margin-top: 5%;
+    
 
 }
-
-h4{
-    text-align: center;
-    color: gray;
-    background-color: #222;
-    padding: 2%;
-    margin-top:0;
-    margin-bottom:0%;
-    font-size: 1.2rem;
+.usuario{
+    height: 7dvb;
+    margin: 0;
 }
+
 .partido-card{
     box-sizing: border-box;
     width: 200dvb;
@@ -45,7 +41,7 @@ h4{
     align-items: center;
     text-align: center;
     margin :5%;
-    border-radius: 0% 0% 15% 15% ;
+    border-radius: 20px 20px 22px 22px ;
     margin-bottom: 10%;
 
 }
@@ -54,7 +50,7 @@ p{
     padding:2%;
     margin:0%;
     
-    border-radius: 0% 0% 15% 15%;
+    border-radius: 0% 0% 20px 20px;
 }
 
 header h1 {
@@ -80,7 +76,7 @@ nav a:hover {
 
 .contenedor-botones {
   display: flex;
-  gap: 5px; /* o 0 si quieres pegados sin espacio */
+  gap: 3%; 
   margin-right:4%
 }
 
@@ -102,7 +98,7 @@ nav a:hover {
     left: 1dvw; 
     font-size: 5vmin;
     background-color: transparent; 
-    color: rgb(rgba(0, 0, 0, 0.736), green, blue);
+    color: white;
     padding: 7dvb;
     
 }
@@ -112,9 +108,9 @@ nav a:hover {
 }
 .texto-menu {
     position: absolute;
-    top: 8dvh; 
+    top: 95%; 
     font-size:2vmin ;
-    background-color: rgba(0, 0, 0, 0.353); 
+    background-color: rgba(0, 0, 0, 0.476); 
     color: white;
     padding: 2dvb ;
     text-align: center;
@@ -127,32 +123,10 @@ nav a:hover {
     text-decoration: none; /* quita subrayado */
 }
 
-.banner {
-    background-color: #0077b6;
-    text-align: center;
-    
-    padding: 0px;
-}
 
-.card:hover {
-  border: 7px #0077b6; 
-  
-  color:rgb(167, 124, 9); 
-  transition: all 0.3s ease; 
-}
 
-.banner h2 {
-    color: white;
-    margin-bottom: 15px;
-}
 
-.banner img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-}
-
-.partidos {
+.mundiales {
     margin-top: 80vmin;
     font-size: 3vmin;
     padding:none;
@@ -166,77 +140,6 @@ nav a:hover {
     display:flex
 }
 
-.partidos h2 {
-    margin-bottom: 15px;
-    
-}
-
-.carrusel {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.cards-container {
-    overflow: hidden;
-    flex: 1;
-}
-
-.cards {
-    display: flex;
-    transition: transform 0.3s ease;
-    gap: 15px;
-}
-
-.card {
-    background: #444;
-    color: white;
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    width: 240px;
-    flex-shrink: 0;
-}
-
-.fecha {
-    background: #2c3e50;
-    padding: 10px;
-    text-align: center;
-}
-
-.fecha span {
-    font-size: 1.5rem;
-    display: block;
-}
-
-.fecha small {
-    font-size: 0.8rem;
-}
-
-.info {
-    padding: 10px;
-    flex: 1;
-}
-
-.info img {
-    width: 24px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-.prev, .next {
-    background: #222;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    border-radius: 5px;
-}
-
-.prev:hover, .next:hover {
-    background: #555;
-}
 
 /* Modo oscuro */
 body.dark {
@@ -255,7 +158,4 @@ body.dark .card {
 body.dark .prev, body.dark .next {
     background: #555;
 }
-
-
-/* Estilos del formulario de registro */
 
