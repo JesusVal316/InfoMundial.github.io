@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: hsl(0, 0%, 13%);
+    
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    position:fixed;
+    margin-top:0;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+img{
+    
+    height: 25dvb;
+    margin-bottom:0%;
+    margin-top: 5%;
+
+}
+
+h4{
+    text-align: center;
+    color: gray;
+    background-color: #222;
+    padding: 2%;
+    margin-top:0;
+    margin-bottom:0%;
+    font-size: 1.2rem;
+}
+.partido-card{
+    box-sizing: border-box;
+    width: 200dvb;
+    background-color: #222;
+    color:#2e2d2d;
+    align-items: center;
+    text-align: center;
+    margin :5%;
+    border-radius: 0% 0% 15% 15% ;
+    margin-bottom: 10%;
+
+}
+p{
+    background-color: rgb(224, 228, 228);
+    padding:2%;
+    margin:0%;
+    
+    border-radius: 0% 0% 15% 15%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header span {
+    color: #ccc;
+}
+
+nav a {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding:2%
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-botones {
+  display: flex;
+  gap: 5px; /* o 0 si quieres pegados sin espacio */
+  margin-right:4%
+}
+
+#modo-oscuro, #modo-notificacion {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+  /* quito margin-left:auto para que no se separen */
+  display: flex;
+  align-items:center; /* para centrar verticalmente el contenido */
+
+}
+.texto-encima {
+    position: absolute;
+    top: 10dvh; 
+    left: 1dvw; 
+    font-size: 5vmin;
+    background-color: transparent; 
+    color: rgb(rgba(0, 0, 0, 0.736), green, blue);
+    padding: 7dvb;
+    
+}
+
+.Titulo{
+    font-size:5vmin;
+}
+.texto-menu {
+    position: absolute;
+    top: 8dvh; 
+    font-size:2vmin ;
+    background-color: rgba(0, 0, 0, 0.353); 
+    color: white;
+    padding: 2dvb ;
+    text-align: center;
+    margin-left: -3%;
+    width: 100%
+}
+.texto-menu a {
+    color: white; /* ahora sí blancos */
+    font-size: 3vmin; /* tamaño relativo */
+    text-decoration: none; /* quita subrayado */
+}
+
+.banner {
+    background-color: #0077b6;
+    text-align: center;
+    
+    padding: 0px;
+}
+
+.card:hover {
+  border: 7px #0077b6; 
+  
+  color:rgb(167, 124, 9); 
+  transition: all 0.3s ease; 
+}
+
+.banner h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.partidos {
+    margin-top: 80vmin;
+    font-size: 3vmin;
+    padding:none;
+    padding-top: 8%;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+
+}
+.partidos-grid{
+    display:flex
+}
+
+.partidos h2 {
+    margin-bottom: 15px;
+    
+}
+
+.carrusel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards-container {
+    overflow: hidden;
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    transition: transform 0.3s ease;
+    gap: 15px;
+}
+
+.card {
+    background: #444;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    width: 240px;
+    flex-shrink: 0;
+}
+
+.fecha {
+    background: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+.fecha span {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.fecha small {
+    font-size: 0.8rem;
+}
+
+.info {
+    padding: 10px;
+    flex: 1;
+}
+
+.info img {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.prev, .next {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.prev:hover, .next:hover {
+    background: #555;
+}
+
+/* Modo oscuro */
+body.dark {
+    background: #181818;
+    color: #f5f5f5;
+}
+
+body.dark header {
+    background: #000;
+}
+
+body.dark .card {
+    background: #333;
+}
+
+body.dark .prev, body.dark .next {
+    background: #555;
+}
+
+
+/* Estilos del formulario de registro */
+

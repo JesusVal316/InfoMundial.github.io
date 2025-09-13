@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Agenda Mundial 2026</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    
 </head>
 <body>
-
-    <!-- Encabezado -->
     <header>
-        <h1>Mi Agenda Mundial <span>2026</span></h1>
+        <h1 class="Titulo">Mi Agenda Mundial <span>2026</span></h1>
         <div class="contenedor-botones">
             <button id="modo-notificacion" title="Cambiar modo">🔔</button>
             <button id="modo-oscuro" title="Cambiar modo">🌙</button>
         </div>
+        <div class="texto-menu">
+            <nav>
+                <a href="Agenda-Mundial.html">Inicio</a>
+                <a href="Inicio-Sesion.html">Iniciar sesión/Registrarse</a>
+                <a href="Mi-Agenda.html">Mi Agenda</a>
+                <a href="#">Sedes</a>
+                
+            </nav>
+        </div>
     </header>
 
-    <!-- Banner con video y menú -->
+    
     <section class="banner">
         <style>
             video {
                 position: absolute;
-                top: 9%;
+                top: 0dvh;
                 left: 0;
                 width: 100%;
-                height: 80%;
+                height: 100vmin;
                 object-fit: cover;
                 z-index: -1;
             }
@@ -34,16 +41,7 @@
 
         <video src="0815.mp4" loop autoplay muted ></video>
         
-        <header class="texto-menu">
-            <nav>
-                <a href="Agenda-Mundial.html">Inicio</a>
-                <a href="Inicio-Sesion.html">Iniciar sesión/Registrarse</a>
-                
-                <a href="Mi-Agenda.html">Mi Agenda</a>
-                <a href="#">Sedes</a>
-                
-            </nav>
-        </header>
+        
 
         <h2 class="texto-encima">Equipos Participantes</h2>
     </section>
@@ -51,73 +49,131 @@
     <!-- Sección de Partidos (abajo) -->
     <section class="partidos">
         <audio src="Waka Waka (Esto es Africa) (Cancion Oficial de la Copa Mundial de la FIFA� Sudafrica 2010).mp4" loop autoplay controls></audio>
-        
-        <h2>Próximos Partidos</h2>
-        <div class="carrusel">
-            <button class="prev">⮜</button>
-            <div class="cards-container">
-                <div class="cards">
-                    <div class="card">
-                        <div class="fecha">
-                            <span>11</span>
-                            <small>Junio</small>
-                        </div>
-                        <div class="info">
-                            <img src="banderamexico.jpg" alt="México">
-                            <p>19:00</p>
-                            <p>Estadio Azteca, Ciudad de México</p>
-                            <strong>PARTIDO 1</strong>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="fecha">
-                            <span>11</span>
-                            <small>Junio</small>
-                        </div>
-                        <div class="info">
-                            <img src="banderamexico.jpg" alt="México">
-                            <p>Estadio Chivas, Guadalajara</p>
-                            <strong>PARTIDO 2</strong>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="fecha">
-                            <span>12</span>
-                            <small>Junio</small>
-                        </div>
-                        <div class="info">
-                            <img src="Canadabandera.png" alt="Canadá">
-                            <p>Estadio Nacional de Canadá, Toronto</p>
-                            <strong>PARTIDO 3</strong>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="fecha">
-                            <span>12</span>
-                            <small>Junio</small>
-                        </div>
-                        <div class="info">
-                            <img src="banderausa.jpeg" alt="USA">
-                            <p>SoFi Stadium, Los Ángeles</p>
-                            <strong>PARTIDO 4</strong>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="fecha">
-                            <span>12</span>
-                            <small>Junio</small>
-                        </div>
-                        <div class="info">
-                            <img src="Canadabandera.png" alt="Canadá">
-                            <p>Estadio Nacional de Canadá, Toronto</p>
-                            <strong>PARTIDO 3</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="next">⮞</button>
+        <br>
+        <br>
+        <h2>Mundiales</h2>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="2026.jpeg" alt="imagen mundial 2026">
+            <P>Mundial 2026</P>
+        </article>
+        <article class="partido-card">
+            <img src="2022.jpeg" alt="imagen mundial 2022">
+            <P>Mundial 2022</P>
+        </article>
         </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="2018.jpg" alt="imagen mundial 2018">
+            <P>Mundial 2018</P>
+        </article>
+        <article class="partido-card">
+            <img src="2014.jpeg" alt="imagen mundial 2014">
+            <P>Mundial 2014</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+            <article class="partido-card">
+            <img src="2010.jpg" alt="imagen mundial 2010" loading ="lazy">
+            <P>Mundial 2010</P> 
+        </article>
+        <article class="partido-card">
+            <img src="2006.jpg" alt="imagen mundial 2006" loading ="lazy">
+            <P>Mundial 2006</P>
+        </article>
+        </div>
+        <div class="partidos-grid">  
+        <article class="partido-card">
+            <img src="2002.jpg" alt="imagen mundial 2002" loading ="lazy">
+            <P>Mundial 2002</P>
+        </article>
+        <article class="partido-card">
+            <img src="1998.jpg" alt="imagen mundial 1998" loading="lazy">
+            <P>Mundial 1998</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1994.jpg" alt="imagen mundial 1994" loading ="lazy">
+            <P>Mundial 1994</P>
+        </article>
+        <article class="partido-card">
+            <img src="1990.jpg" alt="imagen mundial 1990" loading="lazy">
+            <P>Mundial 1990</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1986.jpg" alt="imagen mundial 1986" loading ="lazy">
+            <P>Mundial 1986</P>
+        </article>
+        <article class="partido-card">
+            <img src="1982.jpg" alt="imagen mundial 1982" loading="lazy">
+            <P>Mundial 1982</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1978.jpg" alt="imagen mundial 1978" loading ="lazy">
+            <P>Mundial 1978</P>
+        </article>
+        <article class="partido-card">
+            <img src="1974.jpg" alt="imagen mundial 1974" loading="lazy">
+            <P>Mundial 1974</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1970.jpg" alt="imagen mundial 1970" loading ="lazy">
+            <P>Mundial 1970</P>
+        </article>
+        <article class="partido-card">
+            <img src="1966.jpg" alt="imagen mundial 1966" loading ="lazy">
+            <P>Mundial 1966</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1962.jpg" alt="imagen mundial 1962" loading ="lazy">
+            <P>Mundial 1962</P>
+        </article>
+        <article class="partido-card">
+            <img src="1958.jpg" alt="imagen mundial 1958" loading="lazy">
+            <P>Mundial 1958</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1954.jpg" alt="imagen mundial 1954" loading ="lazy">
+            <P>Mundial 1954</P>
+        </article>
+        <article class="partido-card">
+            <img src="1950.jpg" alt="imagen mundial 1950" loading ="lazy">
+            <P>Mundial 1950</P>
+        </article>
+        </div>
+        <div class="partidos-grid">
+        <article class="partido-card">
+            <img src="1938.jpg" alt="imagen mundial 1938" loading="lazy">
+            <P>Mundial 1938</P> 
+        </article>
+        <article class="partido-card" >
+            <img src="1934.jpg" alt="imagen mundial 1934" loading="lazy">
+            <P>Mundial 1934</P>
+        </article>
+        </div>
+        <div class="partidos-grid" >
+            <article class="partido-card">
+            <img src="1930.jpg" alt="imagen mundial 1930" loading="lazy">
+            <P>Mundial 1930</P>
+        </article>
+        </div>
+        
+        
     </section>
+    <footer>
+        <h4>© 2026 Mi Agenda Mundial. Todos los derechos reservados.</h4>
+    </footer>
 
 </body>
 </html>
